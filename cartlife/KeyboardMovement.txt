@@ -1,0 +1,124 @@
+================================================================================
+ CharacterControl script module for Adventure Game Studio v2.7
+ by Rui "Trovatore" Pires & strazer
+================================================================================
+                                                                    Version 1.01
+
+********************************************************************************
+There may still be some things that need fixing. If you decide to try it out, 
+we'd appreciate some feedback at:
+ http://www.bigbluecup.com/yabb/index.php?topic=22724
+********************************************************************************
+
+Contents
+========
+
+ 1. - Introduction
+ 2. - Features
+ 3. - Changelog
+ 4. - Setup
+ 5. - Usage
+ 6. - Customization
+
+
+================================================================================
+1. Introduction
+================================================================================
+
+This script module allows you to enable movement of the player character with 
+the keyboard.
+
+You are free to use this for any game, free or commercial. A credit would be 
+nice but is not necessary.
+
+Have fun! :)
+  Rui "Brisby" Pires & strazer
+
+
+================================================================================
+2. Features
+================================================================================
+
+ * Move the player character with keyboard keys
+ * Choice of two control modes: Pressing or tapping direction keys
+
+
+================================================================================
+3. Changelog
+================================================================================
+
+Version 1.01 (2005-09-21)
+
+ * Clean-up & documentation by strazer
+
+Version 1.00 (2005-09-20)
+
+ * First public release by Rui "Brisby" Pires
+
+
+================================================================================
+4. Setup
+================================================================================
+
+To use this script module in your game, you have to import it first:
+Open your game in the AGS editor, go to menu "Script" -> "Module manager...", 
+click the "Import..." button and open the file "KeyboardMovement_101.scm".
+
+You will now have access to the module from your global and room scripts.
+
+
+================================================================================
+5. Usage
+================================================================================
+
+The only function this script module currently exposes is
+
+--------------------------------------------------------------------------------
+KeyboardMovement.SetMode(KeyboardMovement_Modes mode);
+--------------------------------------------------------------------------------
+
+ Call this function from anywhere in your script to choose a control mode and 
+ thus enabling keyboard movement.
+ A good place to put it is your game's "game_start" function. You can call the 
+ function again at a later time to change the control mode.
+
+ Three modes are currently available:
+
+  * eKeyboardMovement_None: Keyboard movement disabled (the default)
+
+  * eKeyboardMovement_Pressing: Player walks while the direction key is pressed.
+    Releasing the key stops the character.
+
+  * eKeyboardMovement_Tapping: Player starts walking when direction is pressed 
+    once and walks until key is pressed again. Numpad-5 also stops him.
+
+ NOTE: The character can only be moved if he's standing on a walkable area.
+
+ NOTE: The player character will stop walking when he encounters an obstacle or 
+       the end of the walkable area.
+
+ Example:
+
+  // global script
+
+  function game_start() {
+
+    KeyboardMovement.SetMode(eKeyboardMovement_Pressing);
+
+  }
+
+
+================================================================================
+6. Customization
+================================================================================
+
+I've made an effort to comment the code as much as possible to make it easier 
+to understand.
+If you decide to alter the module, I ask you to please make clear that you have 
+changed it from the original version should you distribute your copy.
+
+If you have any questions or suggestions, let us know at 
+ http://www.bigbluecup.com/yabb/index.php?topic=22724
+
+================================================================================
+End of file

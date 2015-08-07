@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Welcome to Cart Life's Open Sores</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		ags_over = newImage("readmeimages/ags-over.jpg");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+</head>
+<body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="preloadImages();">
+<center>
+<table id="Table_01" width="460" height="900" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<img src="readmeimages/readme_01.jpg" width="460" height="325" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="http://www.adventuregamestudio.co.uk"
+				onmouseover="changeImages('ags', 'readmeimages/ags-over.jpg'); return true;"
+				onmouseout="changeImages('ags', 'readmeimages/ags.jpg'); return true;"
+				onmousedown="changeImages('ags', 'readmeimages/ags-over.jpg'); return true;"
+				onmouseup="changeImages('ags', 'readmeimages/ags-over.jpg'); return true;">
+				<img name="ags" src="readmeimages/ags.jpg" width="460" height="15" border="0" alt=""></a></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="readmeimages/readme_03.jpg" width="460" height="560" alt=""></td>
+	</tr>
+</table>
+</body>
+</html>
