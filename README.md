@@ -3,7 +3,7 @@ Source code to CartLife, by Richard Hofmeier.
 
 About: https://en.wikipedia.org/wiki/Cart_Life
 
-Cart Life is a simulation video game developed by Richard Hofmeier using Adventure Game Studio for Microsoft Windows released in May 2011. The game was added to Steam in March 2013 but later removed when Hofmeier released the full source code for free.[1] The game is designed on a pixel-grid in grayscale, with minimal detail, to better allow the player to deduct the mood of each of the three vendor characters.
+Cart Life is a simulation video game developed by Richard Hofmeier using Adventure Game Studio for Microsoft Windows released in May 2011. The game was added to Steam in March 2013 but later removed when Hofmeier released the full source code for free. The game is designed on a pixel-grid in grayscale, with minimal detail, to better allow the player to deduct the mood of each of the three vendor characters.
 
 In Cart Life the player controls one of three street vendors, and attempts to run their shop whilst looking after their health, interests, and families.
 
