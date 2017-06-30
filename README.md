@@ -11,7 +11,34 @@ The game was received well by critics, with particular praise for the relatable 
 
 You will need [Adventure Game Studio](http://www.adventuregamestudio.co.uk/) to edit, compile, and run this.
 
+## Binaries / Game Downloads
 
+I put some binaries, as well as a clone of this repository, up on SourceForge:
+https://sourceforge.net/projects/cartlife/
+
+## Building
+
+This was originally written in AGS 3.2.1; It compiles and runs now in AGS 3.4.0, which has some improvements over 3.2.1.  
+
+You will need to decompress the multi-part .rar file `acpsprset_DECOMPRESSME.*.rar` to get teh acpsprset, which is the sprites file.
+
+## Contributing
+
+There are quite a few bugs people have discovered in CartLife; you are invited to document these in detail, and/or do anything towards solving them.  Open an "issue" here on GitHub.  There are some things referenced in forums on Steam, etc., which may be a useful place to start: https://github.com/gondur/cartlife_src/issues/2
+
+The code is quite messy and needs lots of refactoring, and even just formatting to be readable; as RH notes in the code:
+```
+// It's clear that, at the time of making this game and writing all of this mind-cancer-inducing code, I was
+// new to scripting and was only guessing at how to make things work. What takes cart life hundreds of thousands
+// of lines of scripting could be done in a few dozen by a more astute author. But, despite the immeasurable shame
+// I feel when I glance back over this shit, I remember that I only learned what I know through looking at the
+// attempts made by other authors. If they hadn't granted me the chance to peek under the hoods of their creations,
+// I could never have even started to forge my own. It's my dearest hope that any of this is of use to someone.
+// BEST OF LUCK, PIONEER!
+// -Richard
+```
+
+I am following something akin to the PSR-2 standard (as close as practicable in this language) as a style guide and standard to follow when going through this code. http://www.php-fig.org/psr/psr-2/  
 
 ## License:
 
