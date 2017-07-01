@@ -51,3 +51,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 This doesn't include most of the music, of course, since it was composed and performed by people who aren't me. Please contact them for permission: MAT64: http://www.cervellomeccanico.com/ POCKETMASTER: http://www.pocketmaster.ch/ STU: http://stu.atari.org/ LO-BAT: http://www.lo-bat.be/
 
 ALSO: This game uses the font "HOOGE" by Nicholay Dubina and Craig Kroeger, which I can't give you permission to use, probably. Best to ask Craig, instead. http://miniml.com/fonts/
+
+
+## Changelog
+
+- #####  "Open Sores" 0.1 - 2017-06-30
+    - Now compiles successfully on AGS 3.4
+    - Started reformatting / cleaning up code.
