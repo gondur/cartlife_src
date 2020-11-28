@@ -40,6 +40,52 @@ The code is quite messy and needs lots of refactoring, and even just formatting 
 
 I am following something akin to the PSR-2 standard (as close as practicable in this language) as a style guide and standard to follow when going through this code. http://www.php-fig.org/psr/psr-2/  
 
+Please add a Signed-off-by line, in the following format, to the end of each of your commit log messages to certify that you adhere to the requirements of the [Developer Certificate of Origin](https://julien.ponge.org/blog/developer-certificate-of-origin-versus-contributor-license-agreements/) below:
+```
+Signed-off-by: Vinny Bagelman <vinny.bagelman@example.com>
+```
+You must use your real name and email address in the Signed-off-by line. If you have correctly set your Git [user.name and user.email variables](https://git-scm.com/docs/git-config#Documentation/git-config.txt-username), you can then use the Git [commit command's -s option](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s) to automatically add the Signed-off-by line.
+
+## Developer Certificate of Origin:
+
+Developer Certificate of Origin
+Version 1.1
+
+Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+1 Letterman Drive
+Suite D4700
+San Francisco, CA, 94129
+
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed.
+
+
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the best
+    of my knowledge, is covered under an appropriate open source
+    license and I have the right under that license to submit that
+    work with modifications, whether created in whole or in part
+    by me, under the same open source license (unless I am
+    permitted to submit under a different license), as indicated
+    in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including all
+    personal information I submit with it, including my sign-off) is
+    maintained indefinitely and may be redistributed consistent with
+    this project or the open source license(s) involved.
+
 ## License:
 
 CART LIFE'S FREE LICENSE: Copyright (c) 2014 • Richard Hofmeier Permission is hereby and enthusiastically granted, free of charge, to anyone obtaining a copy of this software and associated documentation files (the "Software"), to deal in the software without restriction, including without limitation the rights to use, copy, modify, pervert, corrupt, manipulate, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
